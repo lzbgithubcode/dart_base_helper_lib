@@ -32,13 +32,12 @@ class DateHelper {
    }
 
 
-
    ///   格式化日期
    ///    参数：
    ///     dateTime  日期
    ///     format  日期格式
    static  String formatterDate(DateTime dateTime, [String formatter = "yyyy-MM-dd HH:mm:ss"]){
-        if(dateTime == null) return "";
+
         formatter = formatter ??  DateConstants.yyyy_MM_dd_HH_mm_ss;
         String resultFormatter = formatter;
         String year;

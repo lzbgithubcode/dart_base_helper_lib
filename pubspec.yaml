@@ -1,8 +1,8 @@
 name: dart_base_helper_lib
 description: "dart 基础库"
 version: 0.0.1
-author: lzb
-homepage:
+author: "lzb<18350644712@qq.com>"
+homepage: https://github.com/lzbgithubcode/dart_base_helper_lib.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
